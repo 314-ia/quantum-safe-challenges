@@ -1,0 +1,23 @@
+{
+  "challenge": "TRIDENT COLLAPSE",
+  "difficulty": "easy",
+  "backend": "oqs",
+  "kem_alg": "ML-KEM-512",
+  "mldsa_alg": "ML-DSA-44",
+  "slh_alg": "SPHINCS+-SHAKE-128f-simple",
+  "sigma_bits": 20,
+  "format": "I314{...}",
+  "messages": {
+    "mldsa": "VFJJREVOVHxBVFRFU1R8TUwtRFNBfHYx",
+    "slh": "VFJJREVOVHxBVFRFU1R8U0xILURTQXx2MQ=="
+  },
+  "file_layout": {
+    "vault.bin": "12-byte nonce || AES-GCM ciphertext+tag",
+    "flag.enc": "12-byte nonce || AES-GCM ciphertext+tag"
+  },
+  "notes": [
+    "No rompas los estándares PQC; rompe el diseño criptográfico alrededor del vault.",
+    "Existe una única solución correcta.",
+    "La flag real no está incluida en meta.json."
+  ]
+}

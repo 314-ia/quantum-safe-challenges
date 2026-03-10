@@ -1,0 +1,54 @@
+{
+  "challenge": "TRIDENT COLLAPSE",
+  "encoding": "PEM-like Base64",
+  "artifacts": [
+    {
+      "name": "ct_kem.bin",
+      "size_bytes": 768,
+      "sha256": "0b6ea9c7b38a253752476513a7dfe6ff436793dcd9fd1d0fdb464002ec3388f4",
+      "pem_label": "CT_KEM_BIN"
+    },
+    {
+      "name": "flag.enc",
+      "size_bytes": 55,
+      "sha256": "1c2bfd6cdb8ea352280c563b4e0786d46667296a50abee8c0cfcb1dfddab96fe",
+      "pem_label": "FLAG_ENC"
+    },
+    {
+      "name": "pk_kem.bin",
+      "size_bytes": 800,
+      "sha256": "422eab3cf71910a4780a7eee1d0b2f75611d66e6eb20ebe7c005870bca01586f",
+      "pem_label": "PK_KEM_BIN"
+    },
+    {
+      "name": "pk_mldsa.bin",
+      "size_bytes": 1312,
+      "sha256": "b797ea3882ce92430e9c96c38ddacba1c556b19d57339bb503155af12c1ae689",
+      "pem_label": "PK_MLDSA_BIN"
+    },
+    {
+      "name": "pk_slh.bin",
+      "size_bytes": 32,
+      "sha256": "407be2c138ddae0b8228d20daea683691ff6757c0a1df622037595be5788e8c8",
+      "pem_label": "PK_SLH_BIN"
+    },
+    {
+      "name": "sig_mldsa.bin",
+      "size_bytes": 2420,
+      "sha256": "0cba0c8331a63676fb8c159d760b8c8c6bb19695e9d84612d6aa5755fce22fdd",
+      "pem_label": "SIG_MLDSA_BIN"
+    },
+    {
+      "name": "sig_slh.bin",
+      "size_bytes": 17088,
+      "sha256": "f166510ac659680646b28d6e55f1de7ec120049d92cbdcaafaa27c9c620d0584",
+      "pem_label": "SIG_SLH_BIN"
+    },
+    {
+      "name": "vault.bin",
+      "size_bytes": 5880,
+      "sha256": "e4ea4581c2d55eaf8f0fb9455a2b17247ac14b5da571e95e6c7ea78aa1dbe8cb",
+      "pem_label": "VAULT_BIN"
+    }
+  ]
+}
